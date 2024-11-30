@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Web\Resources\add.svg" />
+    <None Remove="Web\Resources\close.svg" />
+    <None Remove="Web\Resources\delete.svg" />
+    <None Remove="Web\Resources\edit.svg" />
+    <None Remove="Web\Resources\error.svg" />
+    <None Remove="Web\Resources\index.html" />
+    <None Remove="Web\Resources\loading.svg" />
+    <None Remove="Web\Resources\main.js" />
+    <None Remove="Web\Resources\rx.svg" />
+    <None Remove="Web\Resources\style.css" />
+    <None Remove="Web\Resources\to.svg" />
+    <None Remove="Web\Resources\tx.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Web\Resources\add.svg" />
+    <EmbeddedResource Include="Web\Resources\close.svg" />
+    <EmbeddedResource Include="Web\Resources\delete.svg" />
+    <EmbeddedResource Include="Web\Resources\edit.svg" />
+    <EmbeddedResource Include="Web\Resources\error.svg" />
+    <EmbeddedResource Include="Web\Resources\index.html" />
+    <EmbeddedResource Include="Web\Resources\loading.svg" />
+    <EmbeddedResource Include="Web\Resources\main.js" />
+    <EmbeddedResource Include="Web\Resources\rx.svg" />
+    <EmbeddedResource Include="Web\Resources\style.css" />
+    <EmbeddedResource Include="Web\Resources\to.svg" />
+    <EmbeddedResource Include="Web\Resources\tx.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.65" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LWRPClient\LWRPClient\LWRPClient.csproj" />
+  </ItemGroup>
+
+</Project>

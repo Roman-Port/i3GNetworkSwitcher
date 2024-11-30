@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "i3GNetworkSwitcher", "i3GNetworkSwitcher\i3GNetworkSwitcher.csproj", "{C13A6745-0FF7-494F-BAEB-DCDADFB500EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LWRPClient", "..\LWRPClient\LWRPClient\LWRPClient.csproj", "{DE2780A9-E7E6-4528-A4BE-AEB9136DDA3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C13A6745-0FF7-494F-BAEB-DCDADFB500EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13A6745-0FF7-494F-BAEB-DCDADFB500EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13A6745-0FF7-494F-BAEB-DCDADFB500EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13A6745-0FF7-494F-BAEB-DCDADFB500EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2780A9-E7E6-4528-A4BE-AEB9136DDA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2780A9-E7E6-4528-A4BE-AEB9136DDA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2780A9-E7E6-4528-A4BE-AEB9136DDA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2780A9-E7E6-4528-A4BE-AEB9136DDA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770A3B32-3862-4FDF-A749-C62942999DD9}
+	EndGlobalSection
+EndGlobal

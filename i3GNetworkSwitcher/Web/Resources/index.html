@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <title>i3G Network Switcher</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="loading_pane" id="loading">
+        <noscript>JavaScript is required.</noscript>
+    </div>
+    <div class="main_content">
+        <div class="main_segment">
+            <div class="main_segment_header">
+                <div class="main_segment_header_title" onclick="showExpertModeDialog();">i3G Simulcast Status</div>
+                <div class="main_segment_header_nav">
+
+                </div>
+            </div>
+            <div class="main_segment_body main_status" id="status"></div>
+        </div>
+        <div class="main_segment">
+            <div class="main_segment_header">
+                <div class="main_segment_header_title">Upcoming Events</div>
+                <div class="main_segment_header_nav">
+                    <div class="main_segment_header_nav_btn" onclick="showEditEventDialog(null);">Add Event</div>
+                </div>
+            </div>
+            <div class="main_segment_body evt_container" id="events"></div>
+        </div>
+    </div>
+    <script src="assets/main.js"></script>
+</body>
+</html>
