@@ -15,5 +15,8 @@ namespace i3GNetworkSwitcher.Core.Config
 
         [JsonProperty("type")] // NORMAL, EXTERNAL, SPECIAL
         public string Type { get; set; }
+
+        [JsonProperty("automation")]
+        public ConfAutomation Automation { get; set; }
     }
 }
